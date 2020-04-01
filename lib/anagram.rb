@@ -1,22 +1,22 @@
-class Anagram 
+class Anagram
 
- attr_accessor :name 
+ attr_accessor :name
 
  new_array=[]
 
  def initialize(name)
-   @name=name  
+   @name=name
 
- end 
+ end
 
-  def match(array) 
-  
-  
-  end 
-  
+  def match(array)
 
+
+  end
 
 
 
 
-end 
+
+
+end
