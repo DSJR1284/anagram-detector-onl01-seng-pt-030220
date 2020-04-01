@@ -2,7 +2,7 @@ class Anagram
 
  attr_accessor :name
 
- new_array=[]
+ 
 
  def initialize(name)
    @name=name
@@ -10,9 +10,14 @@ class Anagram
  end
 
   def match(array)
+    new_array=[] 
     array.each do|word|
-      word.split("") == name.split("")
-    end
+      if word.split("").sort == name.split("").sort 
+          new_array << word 
+      end 
+    end 
+    new_array
+  end
 
 
   end
